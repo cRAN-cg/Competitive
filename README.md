@@ -1,2 +1,2 @@
 # Competitive
-Sample solutions to the Hacker Rank Solutions (C++ and python). 
+Sample solutions to the HackerRank problems (C++ and python). 
