@@ -16,5 +16,12 @@ int main()
 			cin >> a[a_i][a_j];
 		}
 	}
+
+	for (int i =0; i < n; i++){
+		primary_diagonal += a[i][i];
+		secondary_diagonal += a[i][n-i-1];
+	}
+
+	cout << abs((primary_diagonal- secondary_diagonal));
 	return 0;
 }
